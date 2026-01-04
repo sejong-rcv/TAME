@@ -71,7 +71,7 @@ python preprocess/compress_video.py \
 
 ### 1. Prepare the data
 
-Before running training and evaluation, make sure that all datasets (MSR-VTT, MSVD, and DiDeMo) have been properly downloaded and prepared.
+Before running training and evaluation, make sure that all datasets (MSR-VTT, MSVD, DiDeMo, LSMDC, ActivityNet) have been properly downloaded and prepared.
 ---
 
 ### 2. Download the pretrained CLIP checkpoint
@@ -124,6 +124,21 @@ sh scripts/DiDeMo_Train.sh
 # Evaluation
 sh scripts/DiDeMo_Eval.sh
 ```
+
+LSMDC
+
+# Training
+sh scripts/LSMDC_Train.sh
+# Evaluation
+sh scripts/LSMDC_Eval.sh
+
+
+ActivityNet
+
+# Training
+sh scripts/ActivityNet_Train.sh
+# Evaluation
+sh scripts/ActivityNet_Eval.sh
 
 # Acknowledgments
 The implementation of TAME relies on resources from [CLIP](https://github.com/openai/CLIP "CLIP"), [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip "CLIP4Clip"), [CLIP-MoE](https://github.com/OpenSparseLLMs/CLIP-MoE).
