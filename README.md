@@ -86,34 +86,14 @@ wget -P ./modules \
 
 3. Training and Evaluation Scripts
 
-## Pretrained Checkpoints
-
-To quickly reproduce our results on MSR-VTT, we provide a pretrained TAME checkpoint.
-
 ### MSR-VTT (Text-to-Video Retrieval)
 
 - Dataset: MSR-VTT (1K-A split)
 - Backbone: CLIP ViT-B/32
-- Checkpoint: [Download](https://drive.google.com/drive/folders/1lUDDSgMkNYFlijIfeoBGDqEVsJ4_OFO8?usp=sharing)
-
-After downloading, place the checkpoint under the `ckpts/` directory, for example:
 
 ```text
 ckpts/
   tame_msrvtt_vitb32.pth
-```
-You can then run evaluation on MSR-VTT without training:
-
-```bash
-sh scripts/MSRVTT_Eval.sh
-```
-
-Before running the script, make sure that the --init_model argument inside scripts/MSRVTT_Eval.sh is set to the path of your pretrained checkpoint, for example:
-
-```bash
---init_model [PATH_TO_YOUR_CHECKPOINT]
-# e.g.
-# --init_model ckpts/tame_msrvtt_vitb32.pth
 ```
 
 The main training and evaluation pipelines can be launched via the shell scripts provided in the scripts/ directory.
