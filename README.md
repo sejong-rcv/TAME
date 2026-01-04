@@ -55,6 +55,23 @@ Please follow the instructions below to download the raw videos and obtain the o
   - See the DiDeMo README in *collaborative-experts*:  
     [misc/datasets/didemo/README.md](https://github.com/albanie/collaborative-experts/blob/master/misc/datasets/didemo/README.md)
 
+### LSMDC
+
+- Raw videos and annotations: you must obtain permission from MPII to download and use the data.  
+  - Download page: [https://sites.google.com/site/describingmovies/download](https://sites.google.com/site/describingmovies/download)
+- Test set (1,000 clips):  
+  - CSV link: [http://www.google.com/url?q=http%3A%2F%2Fdatasets.d2.mpi-inf.mpg.de%2FmovieDescription%2Fprotected%2Flsmdc2016%2FLSMDC16_challenge_1000_publictect.csv&sa=D&sntz=1&usg=AFQjCNGIaGVhCeb6zNfUs2UL1zNzoEtaSg](http://www.google.com/url?q=http%3A%2F%2Fdatasets.d2.mpi-inf.mpg.de%2FmovieDescription%2Fprotected%2Flsmdc2016%2FLSMDC16_challenge_1000_publictect.csv&sa=D&sntz=1&usg=AFQjCNGIaGVhCeb6zNfUs2UL1zNzoEtaSg)
+- Splits and additional details:  
+  - Please refer to our paper and the dataloader implementation: [dataloaders/dataloader_lsmdc_retrieval.py](./dataloaders/dataloader_lsmdc_retrieval.py)
+
+### ActivityNet
+
+- Raw videos: the official ActivityNet website provides the full dataset via Google Drive and Baidu Drive mirrors.  
+  - Download page: [http://activity-net.org/download.html](http://activity-net.org/download.html)
+- Train/val/test split files:  
+  - Reuse the splits from *collaborative-experts* under  
+    [misc/datasets/activity-net](https://github.com/albanie/collaborative-experts/tree/master/misc/datasets/activity-net)
+
 ---
 
 ## Optional: Video Compression for Faster I/O
