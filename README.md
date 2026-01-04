@@ -88,7 +88,7 @@ python preprocess/compress_video.py \
 
 ### 1. Prepare the data
 
-Before running training and evaluation, make sure that all datasets (MSR-VTT, MSVD, DiDeMo, LSMDC, ActivityNet) have been properly downloaded and prepared.
+<sub>Before running training and evaluation, make sure that all datasets (MSR-VTT, MSVD, DiDeMo, LSMDC, ActivityNet) have been properly downloaded and prepared.</sub>
 ---
 
 ### 2. Download the pretrained CLIP checkpoint
