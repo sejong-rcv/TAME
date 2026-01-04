@@ -127,18 +127,21 @@ sh scripts/DiDeMo_Eval.sh
 
 LSMDC
 
+```bash
 # Training
 sh scripts/LSMDC_Train.sh
 # Evaluation
 sh scripts/LSMDC_Eval.sh
-
+```
 
 ActivityNet
 
+```bash
 # Training
 sh scripts/ActivityNet_Train.sh
 # Evaluation
 sh scripts/ActivityNet_Eval.sh
+```
 
 # Acknowledgments
 The implementation of TAME relies on resources from [CLIP](https://github.com/openai/CLIP "CLIP"), [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip "CLIP4Clip"), [CLIP-MoE](https://github.com/OpenSparseLLMs/CLIP-MoE).
