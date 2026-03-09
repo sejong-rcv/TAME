@@ -1,5 +1,10 @@
 # TAME : Temporal-Aware Mixture-of-Experts for Text-Video Retrieval
 
+This is the official implementation of the paper: 
+
+**"TAME: Temporal-Aware Mixture-of-Experts for Text-Video Retrieval"**, published in **IEEE Access (2026, Volume 14)**. [[Paper Link]](https://ieeexplore.ieee.org/document/11364210)
+
+> **Authors:** Uicheol Jung, Juyoung Hong, Hojung Kwon, and Yukyung Choi
 ---
 <p align="center">
   <img src="fig/Overview.png" width="640">
